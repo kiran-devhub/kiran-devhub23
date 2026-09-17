@@ -10,14 +10,12 @@
 
 <br>
 
-<!-- NAME / TAGLINE - animated typing -->
 <a href="https://github.com/emmi-lili">
   <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=26&duration=2600&pause=900&color=AA9BEF&center=true&vCenter=true&width=880&lines=Emmi+-+Blockchain+Engineer+%26+Tech+Lead;Architecture+of+Wallets+/+Rust+/+Digital+Assets+Infra;Building+here+since+Forever" alt="typing banner">
 </a>
 
 <br>
 
-<!-- SOCIALS — LinkedIn stays brand blue (glyph vanishes on custom fills). Others themed. -->
 <a href="https://www.linkedin.com/in/emmi-aguilar-rivero/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>&nbsp;&nbsp;
 <a href="https://instagram.com/emmcriptada"><img src="https://img.shields.io/badge/Instagram-0d1117?style=for-the-badge&logo=instagram&logoColor=aa9bef" alt="Instagram"></a>&nbsp;&nbsp;
 <a href="https://x.com/emmcriptada"><img src="https://img.shields.io/badge/X-0d1117?style=for-the-badge&logo=x&logoColor=aa9bef" alt="X"></a>
@@ -28,37 +26,26 @@
 
 </div>
 
----
+<br>
 
-#### `$ cat about_me.txt`
+`$ cat about_me.txt`
 
 I'm a Blockchain Engineer and Tech Lead building the infrastructure that moves digital
-assets — wallets, signing systems, and custody rails — with a parallel obsession over
-making that infrastructure something regular people can actually trust and use. I split
-my time between institutional custody engineering, growing the Stellar developer
-community in LATAM, and teaching AI & Web3 in plain Spanish to people who never thought
-tech was for them.
-
-- 🏦 **Technical Account Manager at [BitGo](https://www.bitgo.com)** — bridging the real world and crypto through institutional digital asset custody, wallets, and signing infrastructure.
-- ⭐ **Stellar Ambassador's Program Country Lead** — building the next generation of Bolivian developers.
-- 🤖 Unapologetically obsessed with **AI and agents** — mix that with blockchain and you get agents that can hold, move, and verify value on their own.
-- 🎙️ Building my personal brand, **[@emmcriptada](https://instagram.com/emmcriptada)** — AI & Web3 explained in plain Spanish.
-- 🌱 **Mission:** help people who want to become great actually get there, through community, mentorship, and shipping real things.
-- 💬 Talk to me about **Web3 in LATAM** and you'll have my full attention.
-
----
-
-#### `$ cat profile.config.ts`
+assets — wallets, signing systems, custody rails — with a parallel obsession over making
+that infrastructure something regular people can trust and actually use. I split my time
+between institutional custody engineering at BitGo, growing the Stellar developer
+community across LATAM, and teaching AI & Web3 in plain Spanish to people who never
+thought tech was for them.
 
 ```ts
 const emmi = {
   title: "Blockchain Engineer | Tech Lead | Digital Asset Infrastructure",
   role: "Technical Account Manager @ BitGo",
-  location: "Bolivia 🇧🇴",
+  based: "Bolivia 🇧🇴",
   stack: {
     languages: ["TypeScript", "JavaScript (ES6+)", "Rust", "Solidity", "Python"],
     frontend: ["React", "Next.js", "Tailwind CSS"],
-    backend: ["Node.js", "REST APIs", "Wallet & Signing Infra"],
+    backend: ["Node.js", "REST APIs", "Wallet & Signing Infrastructure"],
     blockchain: [
       "Stellar / Soroban",
       "Smart Contracts",
@@ -70,7 +57,7 @@ const emmi = {
     devTools: ["Git", "GitHub", "Docker", "VS Code"],
   },
   leading: "Stellar Ambassador's Program — Bolivia Country Lead",
-  buildingBrand: "@emmcriptada — AI & Web3 in plain Spanish",
+  brand: "@emmcriptada — AI & Web3 explained in plain Spanish",
   mission: "Help people who want to become great actually get there.",
   openTo: [
     "Web3 in LATAM conversations",
@@ -81,23 +68,24 @@ const emmi = {
 } as const;
 ```
 
----
+`$ ls -la tech_stack/`
+
+```
+drwxr-xr-x  Languages
+drwxr-xr-x  Blockchain & Smart Contracts
+drwxr-xr-x  Frontend
+drwxr-xr-x  Backend & Infra
+drwxr-xr-x  Databases
+drwxr-xr-x  Dev Tools & OS
+```
 
 <div align="center">
-
-#### `$ ls -la tech_stack/`
-
-Languages&nbsp;&nbsp;·&nbsp;&nbsp;Blockchain & Contracts&nbsp;&nbsp;·&nbsp;&nbsp;Frontend&nbsp;&nbsp;·&nbsp;&nbsp;Backend & Infra&nbsp;&nbsp;·&nbsp;&nbsp;Databases&nbsp;&nbsp;·&nbsp;&nbsp;Dev Tools & OS
-
-<br>
 
 <img src="https://skillicons.dev/icons?i=ts,js,react,nextjs,nodejs,solidity,rust,python,postgres,tailwind,git,github,docker,vscode&perline=7" alt="tech stack">
 
 </div>
 
----
-
-#### `$ cat current_focus.yaml`
+`$ cat current_focus.yaml`
 
 ```yaml
 building:
@@ -118,85 +106,33 @@ open_to:
   - "Speaking and community-building opportunities"
 ```
 
----
+`$ git analytics --all`
 
 <div align="center">
-
-#### `$ ls projects/ --sort=stars`
-
-<table>
-<tr>
-<td width="50%" align="center">
-<picture>
-  <source media="(prefers-color-scheme: dark)"  srcset="assets/card-Authorization-Checks--dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/card-Authorization-Checks--light.svg">
-  <img src="assets/card-Authorization-Checks--dark.svg" width="100%" alt="Authorization-Checks">
-</picture>
-</td>
-<td width="50%" align="center">
-<picture>
-  <source media="(prefers-color-scheme: dark)"  srcset="assets/card-wallet-risk-lens-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/card-wallet-risk-lens-light.svg">
-  <img src="assets/card-wallet-risk-lens-dark.svg" width="100%" alt="wallet-risk-lens">
-</picture>
-</td>
-</tr>
-<tr>
-<td width="50%" align="center">
-<picture>
-  <source media="(prefers-color-scheme: dark)"  srcset="assets/card-tx-whisperer-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/card-tx-whisperer-light.svg">
-  <img src="assets/card-tx-whisperer-dark.svg" width="100%" alt="tx-whisperer">
-</picture>
-</td>
-<td width="50%" align="center">
-<picture>
-  <source media="(prefers-color-scheme: dark)"  srcset="assets/card-DeepGrid-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/card-DeepGrid-light.svg">
-  <img src="assets/card-DeepGrid-dark.svg" width="100%" alt="DeepGrid">
-</picture>
-</td>
-</tr>
-</table>
-
-<sub>edit <code>assets/projects.json</code> — the Charts workflow redraws these on every push.</sub>
-
-</div>
-
----
-
-<div align="center">
-
-#### `$ git analytics --all`
 
 <table>
 <tr>
 <td width="50%" align="center" valign="middle">
 
-<!-- Self-rated radar - edit assets/skills.json, the workflow redraws it -->
 <picture>
   <source media="(prefers-color-scheme: dark)"  srcset="assets/radar-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="assets/radar-light.svg">
-  <img src="assets/radar-dark.svg" width="400" alt="skill radar chart">
+  <img src="assets/radar-dark.svg" width="380" alt="skill radar chart">
 </picture>
 
 </td>
 <td width="50%" align="center" valign="middle">
 
-<!-- Hand-authored contract & language stack radar - edit assets/langmix.json -->
 <picture>
   <source media="(prefers-color-scheme: dark)"  srcset="assets/radar-langs-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="assets/radar-langs-light.svg">
-  <img src="assets/radar-langs-dark.svg" width="400" alt="language radar chart">
+  <img src="assets/radar-langs-dark.svg" width="380" alt="language radar chart">
 </picture>
 
 </td>
 </tr>
 </table>
 
-<!-- Generated by scripts/cards.py into this repo. Deliberately NOT
-     github-readme-stats / streak-stats / github-profile-trophy: those are
-     shared public instances that go down and take the whole section with them. -->
 <picture>
   <source media="(prefers-color-scheme: dark)"  srcset="assets/card-stats-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="assets/card-stats-light.svg">
@@ -209,23 +145,19 @@ open_to:
 
 </div>
 
----
-
-#### `$ tail -f activity.log`
+`$ tail -f activity.log`
 
 ```
-[status]   Building secure custody & signing infra @ BitGo
-[status]   Leading Stellar Ambassador's Program — Bolivia
-[status]   Growing @emmcriptada — AI & Web3 in plain Spanish
+[status]   building custody & signing infra @ BitGo
+[status]   leading Stellar Ambassador's Program — Bolivia
+[status]   growing @emmcriptada — AI & Web3 in plain Spanish
 [tz]       America/La_Paz
-[mood]     agents that hold, move & verify value on their own
+[note]     agents that hold, move & verify value on their own
 ```
 
----
+`$ ./connect.sh --all`
 
 <div align="center">
-
-#### `$ ./connect.sh --all`
 
 <a href="https://www.linkedin.com/in/emmi-aguilar-rivero/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>&nbsp;&nbsp;
 <a href="https://instagram.com/emmcriptada"><img src="https://img.shields.io/badge/Instagram-0d1117?style=for-the-badge&logo=instagram&logoColor=aa9bef" alt="Instagram"></a>&nbsp;&nbsp;
